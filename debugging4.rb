@@ -31,7 +31,7 @@ puts decode("EMBAXNKEKSYOVQTBJSWBDEMBPHZGJSL", "secretkey")
 # and integers and different object types and therefore have different behaviour. Look at the docs to determine what script you can use to alter the behaviour of the object types,
 # enabling shared behaviour. In this case, converting the string to an integer ".to_i" will fix the problem.
 # Step 3: Add ".to_i" and run the file from the command line again. This error should no longer appear.
-# 
+#
 # Second issue:
 # Step 1: Make some assumptions and then check these assumptions. How should your program be behaving? Look at the command line output. Is it what is expected? In this case, no.
 # The decode method is returning the correct characters, but in an incorrect order. So what does this mean? Break the code down into smaller pieces. Look at what is working and what isn't.
