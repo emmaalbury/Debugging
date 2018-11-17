@@ -28,8 +28,9 @@ puts decode("EMBAXNKEKSYOVQTBJSWBDEMBPHZGJSL", "secretkey")
 # 3. Break the problem down into smaller pieces
 # 3. Check assumptions
 # 4. Read documentation (language documentation, stack overflow etc)
+# 5. If a solution is not found, break the code down into even smaller pieces
+# and repeat the above process
 #
-# 
 # Expanded explanation:
 
 # First issue:
