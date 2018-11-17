@@ -3,6 +3,17 @@ This is 4 debugging exercises completed. You can see the original versions in th
 
 Debugging procedures for exercise 4 -
 
+Suggested process:
+
+1. Read error messages
+2. Pinpoint the bug (look at the line where the error message is directing,
+   follow the flow, create visibility using puts statements, binding.pry, irb etc)
+3. Break the problem down into smaller pieces
+3. Check assumptions
+4. Read documentation (language documentation, stack overflow etc)
+
+Expanded explanation:
+
 First issue:
 Step 1: Take a look at the error messages in the command line. In this case it is - "debugging4.rb:4:in `+': nil can't be coerced into Integer (TypeError)".
 Take a look at line 4 (where the error message is pointing you) and see what it is referring to. It's giving you a "TypeError".
